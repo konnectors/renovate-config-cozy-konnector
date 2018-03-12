@@ -4,14 +4,11 @@
   "main": "index.js",
   "license": "MIT",
   "renovate-config": {
-    "extends": ["config:base"],
-    "packageRules": [
-      {
-        "patch": {
-          "automerge": true
-        },
-        "packagePatterns": ["^cozy-konnector-libs"]
+    "default": {
+      "extends": ["config:base"],
+      "patch": {
+        "automerge": true
       }
-    ]
+    }
   }
 }
