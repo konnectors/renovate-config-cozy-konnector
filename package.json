@@ -6,7 +6,7 @@
   "renovate-config": {
     "default": {
       "extends": ["config:base"],
-      "patch": {
+      "minor": {
         "automerge": true
       }
     }
